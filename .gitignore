@@ -1,0 +1,6 @@
+# Offical KSP Save Folder #
+####### WARNING #######
+# Jungfaha Group [JunG] Ignore list #
+.git/**
+backup/**
+subassemblies/**
