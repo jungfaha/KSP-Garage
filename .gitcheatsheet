@@ -1,0 +1,7 @@
+# Most Commonly Used Commands #
+.. ~~ ..
+# List all files currently being tracked
+git ls-tree -r master --name-only
+# List ALL files that ever existed 
+git log --pretty=format: --name-only 
+--diff-filter=A | sort - | sed '/^$/d'
