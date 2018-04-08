@@ -1,6 +1,6 @@
-ship = Lunar Lander mk3
+ship = Lunar Lander mk2 v2
 version = 1.4.2
-description = ---- Lunar lander MK3 ----¨¨Typical NASA Apollo copy of a Lander with extended fuel tanks.¨¨-- Hot Keys: --¨1. Toggle Display of science modules¨2. Extend Solar Panels¨3. Extend Comms¨¨Made by: Jungfaha
+description = ---- Lunar lander MK2 v2 ----¨¨2 engines instead of 1, placed either side. Perhaps staging cargo underneath?¨¨-- Hot Keys: --¨1. Toggle Display of science modules¨2. Extend Solar Panels¨3. Extend Comms¨¨Made by: Jungfaha
 type = VAB
 size = 2.72075653,3.6623764,2.72075653
 persistentId = 2173284657
@@ -11,10 +11,10 @@ PART
 {
 	part = dockingPort3_4291617880
 	partName = Part
-	persistentId = 3086511300
-	pos = -0.0408356488,11.0976877,0.0649839416
+	persistentId = 144852480
+	pos = -0.0312055126,16.8227482,0.253882915
 	attPos = 0,0,0
-	attPos0 = -0.0408356488,11.0976877,0.0649839416
+	attPos0 = -0.0312055126,16.8227482,0.253882915
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -115,8 +115,8 @@ PART
 {
 	part = probeCoreOcto2_4291617916
 	partName = Part
-	persistentId = 288086428
-	pos = -0.0408356488,11.0366259,0.0649839416
+	persistentId = 2185189577
+	pos = -0.0312055126,16.7616863,0.253882915
 	attPos = 0,0,0
 	attPos0 = 0,-0.0610618591,0
 	rot = 0,0,0,1
@@ -136,8 +136,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = MEMLander_4290315674
-	attN = bottom,MEMLander_4290315674_0|-0.0610621|0
+	link = MEMLander_4286786784
+	attN = bottom,MEMLander_4286786784_0|-0.0610621|0
 	attN = top,dockingPort3_4291617880_0|0.0610621|0
 	EVENTS
 	{
@@ -272,17 +272,17 @@ PART
 }
 PART
 {
-	part = MEMLander_4290315674
+	part = MEMLander_4286786784
 	partName = Part
-	persistentId = 2496506313
-	pos = -0.0408356488,9.63756371,0.0649839416
+	persistentId = 2067880103
+	pos = -0.0312055126,15.3626242,0.253882915
 	attPos = 0,0,0
 	attPos0 = 0,-1.39906216,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
-	symMethod = Radial
+	symMethod = Mirror
 	autostrutMode = Off
 	rigidAttachment = False
 	istg = -1
@@ -295,31 +295,31 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = spotLight1_4290315474
-	link = spotLight1_4290315438
-	link = spotLight1_4290315402
-	link = spotLight1_4290315366
-	link = sensorThermometer_4290315330
-	link = sensorThermometer_4290315304
-	link = sensorAccelerometer_4290315278
-	link = sensorAccelerometer_4290315252
-	link = sensorGravimeter_4290315226
-	link = sensorGravimeter_4290315200
-	link = sensorBarometer_4290315174
-	link = sensorBarometer_4290315148
-	link = ScienceBox_4290315122
-	link = commDish_4290315024
-	link = HighGainAntenna5_4290314358
-	link = sasModule_4290314258
-	link = Decoupler.1p5_4290314154
-	link = rtg_4290311944
-	link = longAntenna_4290311914
-	link = longAntenna_4290311850
-	link = solarPanels3_4290311786
-	link = solarPanels3_4290311686
-	link = ladder1_4290311586
-	attN = bottom2,Decoupler.1p5_4290314154_0|-0.25|0
-	attN = bottom,sasModule_4290314258_0|0|0
+	link = spotLight1_4286786584
+	link = spotLight1_4286786548
+	link = spotLight1_4286786512
+	link = spotLight1_4286786476
+	link = sensorThermometer_4286786440
+	link = sensorThermometer_4286786414
+	link = sensorAccelerometer_4286786388
+	link = sensorAccelerometer_4286786362
+	link = sensorGravimeter_4286786336
+	link = sensorGravimeter_4286786310
+	link = sensorBarometer_4286786284
+	link = sensorBarometer_4286786258
+	link = ScienceBox_4286786232
+	link = commDish_4286786134
+	link = HighGainAntenna5_4286785468
+	link = sasModule_4286785368
+	link = Decoupler.1p5_4286785264
+	link = rtg_4286783324
+	link = longAntenna_4286783294
+	link = longAntenna_4286783230
+	link = solarPanels3_4286783166
+	link = solarPanels3_4286783066
+	link = ladder1_4286782966
+	attN = bottom2,Decoupler.1p5_4286785264_0|-0.25|0
+	attN = bottom,sasModule_4286785368_0|0|0
 	attN = top,probeCoreOcto2_4291617916_0|1.338|0
 	EVENTS
 	{
@@ -624,17 +624,17 @@ PART
 	}
 	VESSELNAMING
 	{
-		name = Lunar Lander mk3
+		name = Lunar Lander mk2 v2
 		type = Lander
 		priority = 10
 	}
 }
 PART
 {
-	part = spotLight1_4290315474
+	part = spotLight1_4286786584
 	partName = Part
-	persistentId = 315881055
-	pos = -0.8134799,9.84252739,-0.0421290323
+	persistentId = 3354128563
+	pos = -0.803849757,15.5675879,0.146769941
 	attPos = 0.0818623304,0.0937690735,-0.0179955661
 	attPos0 = -0.854506552,0.111194611,-0.0891174078
 	rot = 0.0484019183,0.70544827,-0.0484019294,0.70544827
@@ -654,8 +654,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = spotLight1_4290315438
-	srfN = srfAttach,MEMLander_4290315674
+	sym = spotLight1_4286786548
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -703,10 +703,10 @@ PART
 }
 PART
 {
-	part = spotLight1_4290315438
+	part = spotLight1_4286786548
 	partName = Part
-	persistentId = 2693539081
-	pos = 0.731808543,9.84252739,-0.0421290323
+	persistentId = 2335358716
+	pos = 0.741438687,15.5675879,0.146769941
 	attPos = -0.0818622708,0.0937690735,-0.0179955661
 	attPos0 = 0.854506493,0.111194611,-0.0891174078
 	rot = 0.0484019183,-0.70544827,0.0484019294,0.70544827
@@ -726,8 +726,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = spotLight1_4290315474
-	srfN = srfAttach,MEMLander_4290315674
+	sym = spotLight1_4286786584
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -775,10 +775,10 @@ PART
 }
 PART
 {
-	part = spotLight1_4290315402
+	part = spotLight1_4286786512
 	partName = Part
-	persistentId = 364281288
-	pos = -0.825285077,10.1593552,-0.0310002789
+	persistentId = 1550480992
+	pos = -0.815654933,15.8844156,0.157898694
 	attPos = 0.0700566173,-0.132163048,0.0141689479
 	attPos0 = -0.854506016,0.653954506,-0.110153168
 	rot = 0.707106829,-1.24462458E-08,0.707106829,1.24462458E-08
@@ -798,8 +798,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = spotLight1_4290315366
-	srfN = srfAttach,MEMLander_4290315674
+	sym = spotLight1_4286786476
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -847,10 +847,10 @@ PART
 }
 PART
 {
-	part = spotLight1_4290315366
+	part = spotLight1_4286786476
 	partName = Part
-	persistentId = 110847697
-	pos = 0.743613601,10.1593552,-0.0310002789
+	persistentId = 769496143
+	pos = 0.753243744,15.8844156,0.157898694
 	attPos = -0.0700566769,-0.132163048,0.0141689479
 	attPos0 = 0.854506016,0.653954506,-0.110153168
 	rot = 0.707106829,1.24462458E-08,-0.707106709,1.24462449E-08
@@ -870,8 +870,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = spotLight1_4290315402
-	srfN = srfAttach,MEMLander_4290315674
+	sym = spotLight1_4286786512
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -919,10 +919,10 @@ PART
 }
 PART
 {
-	part = sensorThermometer_4290315330
+	part = sensorThermometer_4286786440
 	partName = Part
-	persistentId = 3470926023
-	pos = 0.51950109,10.5851164,0.306109488
+	persistentId = 908019218
+	pos = 0.529131234,16.3101768,0.495008469
 	attPos = 0,0,-0.0270797312
 	attPos0 = 0.560336828,0.94754982,0.268205285
 	rot = -7.31310154E-14,1,3.59172105E-07,2.03609957E-07
@@ -942,8 +942,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = sensorThermometer_4290315304
-	srfN = srfAttach,MEMLander_4290315674
+	sym = sensorThermometer_4286786414
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -1005,10 +1005,10 @@ PART
 }
 PART
 {
-	part = sensorThermometer_4290315304
+	part = sensorThermometer_4286786414
 	partName = Part
-	persistentId = 3322237205
-	pos = -0.601172447,10.5851164,0.306109488
+	persistentId = 6142633
+	pos = -0.591542363,16.3101768,0.495008469
 	attPos = 0,0,-0.0270797312
 	attPos0 = -0.560336828,0.94754982,0.268205285
 	rot = 7.31310154E-14,1,3.59172105E-07,-2.03609957E-07
@@ -1028,8 +1028,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = sensorThermometer_4290315330
-	srfN = srfAttach,MEMLander_4290315674
+	sym = sensorThermometer_4286786440
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -1091,10 +1091,10 @@ PART
 }
 PART
 {
-	part = sensorAccelerometer_4290315278
+	part = sensorAccelerometer_4286786388
 	partName = Part
-	persistentId = 3308517998
-	pos = 0.543009639,10.3286428,0.317375362
+	persistentId = 1815179480
+	pos = 0.552639782,16.0537033,0.506274343
 	attPos = 0,0,-0.0158134997
 	attPos0 = 0.583845377,0.69107914,0.268204927
 	rot = -7.31310154E-14,1,3.59172105E-07,2.03609957E-07
@@ -1114,8 +1114,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = sensorAccelerometer_4290315252
-	srfN = srfAttach,MEMLander_4290315674
+	sym = sensorAccelerometer_4286786362
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -1177,10 +1177,10 @@ PART
 }
 PART
 {
-	part = sensorAccelerometer_4290315252
+	part = sensorAccelerometer_4286786362
 	partName = Part
-	persistentId = 905197381
-	pos = -0.624680996,10.3286428,0.317375362
+	persistentId = 3723716251
+	pos = -0.615050912,16.0537033,0.506274343
 	attPos = 0,0,-0.0158134997
 	attPos0 = -0.583845377,0.69107914,0.268204927
 	rot = 7.31310154E-14,1,3.59172105E-07,-2.03609957E-07
@@ -1200,8 +1200,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = sensorAccelerometer_4290315278
-	srfN = srfAttach,MEMLander_4290315674
+	sym = sensorAccelerometer_4286786388
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -1263,10 +1263,10 @@ PART
 }
 PART
 {
-	part = sensorGravimeter_4290315226
+	part = sensorGravimeter_4286786336
 	partName = Part
-	persistentId = 110692526
-	pos = 0.532250285,10.1161499,0.321870267
+	persistentId = 4132725659
+	pos = 0.541880429,15.8412104,0.510769248
 	attPos = 0,0,-0.0113185048
 	attPos0 = 0.573085904,0.478587151,0.268204808
 	rot = -7.31310154E-14,1,3.59172105E-07,2.03609957E-07
@@ -1286,8 +1286,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = sensorGravimeter_4290315200
-	srfN = srfAttach,MEMLander_4290315674
+	sym = sensorGravimeter_4286786310
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -1349,10 +1349,10 @@ PART
 }
 PART
 {
-	part = sensorGravimeter_4290315200
+	part = sensorGravimeter_4286786310
 	partName = Part
-	persistentId = 38407320
-	pos = -0.613921523,10.1161499,0.321870267
+	persistentId = 2425069412
+	pos = -0.604291439,15.8412104,0.510769248
 	attPos = 0,0,-0.0113185048
 	attPos0 = -0.573085904,0.478587151,0.268204808
 	rot = 7.31310154E-14,1,3.59172105E-07,-2.03609957E-07
@@ -1372,8 +1372,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = sensorGravimeter_4290315226
-	srfN = srfAttach,MEMLander_4290315674
+	sym = sensorGravimeter_4286786336
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -1435,10 +1435,10 @@ PART
 }
 PART
 {
-	part = sensorBarometer_4290315174
+	part = sensorBarometer_4286786284
 	partName = Part
-	persistentId = 3656240069
-	pos = 0.502087951,9.83240414,0.333188593
+	persistentId = 1190927587
+	pos = 0.511718094,15.5574646,0.522087574
 	attPos = 0,0,0
 	attPos0 = 0.54292357,0.194840431,0.268204689
 	rot = -7.31310154E-14,1,3.59172105E-07,2.03609957E-07
@@ -1458,8 +1458,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = sensorBarometer_4290315148
-	srfN = srfAttach,MEMLander_4290315674
+	sym = sensorBarometer_4286786258
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -1521,10 +1521,10 @@ PART
 }
 PART
 {
-	part = sensorBarometer_4290315148
+	part = sensorBarometer_4286786258
 	partName = Part
-	persistentId = 19224419
-	pos = -0.583759189,9.83240414,0.333188593
+	persistentId = 445326355
+	pos = -0.574129105,15.5574646,0.522087574
 	attPos = 0,0,0
 	attPos0 = -0.54292357,0.194840431,0.268204689
 	rot = 7.31310154E-14,1,3.59172105E-07,-2.03609957E-07
@@ -1544,8 +1544,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = sensorBarometer_4290315174
-	srfN = srfAttach,MEMLander_4290315674
+	sym = sensorBarometer_4286786284
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -1607,10 +1607,10 @@ PART
 }
 PART
 {
-	part = ScienceBox_4290315122
+	part = ScienceBox_4286786232
 	partName = Part
-	persistentId = 282609501
-	pos = -0.0408356488,10.0658407,0.51636529
+	persistentId = 597487999
+	pos = -0.0312055126,15.7909012,0.70526427
 	attPos = 0,0,0.0153927505
 	attPos0 = 0,0.428277016,0.435988605
 	rot = 0,0,0.707106829,-0.707106829
@@ -1630,8 +1630,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = GooExperiment_4290315070
-	srfN = srfAttach,MEMLander_4290315674
+	link = GooExperiment_4286786180
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -1679,10 +1679,10 @@ PART
 }
 PART
 {
-	part = GooExperiment_4290315070
+	part = GooExperiment_4286786180
 	partName = Part
-	persistentId = 2722836918
-	pos = -0.0368223451,10.0658407,0.670254588
+	persistentId = 728830711
+	pos = -0.0271922089,15.7909012,0.859153509
 	attPos = 0,0,-0.024100095
 	attPos0 = -4.65661093E-10,0.00401329855,0.177989364
 	rot = 0.707106888,0.707106769,0,0
@@ -1702,7 +1702,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,ScienceBox_4290315122
+	srfN = srfAttach,ScienceBox_4286786232
 	EVENTS
 	{
 	}
@@ -1769,10 +1769,10 @@ PART
 }
 PART
 {
-	part = commDish_4290315024
+	part = commDish_4286786134
 	partName = Part
-	persistentId = 2122573347
-	pos = -0.0408357084,10.8203936,-0.796278596
+	persistentId = 4004550815
+	pos = -0.0312055722,16.545454,-0.607379675
 	attPos = 0,-0.0484848022,0.034332633
 	attPos0 = -5.96046448E-08,1.23131466,-0.895595193
 	rot = 0,0.963910758,-0.266225547,0
@@ -1792,7 +1792,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,MEMLander_4290315674
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -1860,10 +1860,10 @@ PART
 }
 PART
 {
-	part = HighGainAntenna5_4290314358
+	part = HighGainAntenna5_4286785468
 	partName = Part
-	persistentId = 3875339291
-	pos = -0.0408356488,9.86795139,0.560130715
+	persistentId = 87742540
+	pos = -0.0312055126,15.5930119,0.749029696
 	attPos = 0,-0.897802353,0.0168914497
 	attPos0 = 0,1.12819004,0.478255332
 	rot = -0.0250160079,0.706664145,-0.0250160079,0.706664145
@@ -1883,7 +1883,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,MEMLander_4290315674
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -1970,10 +1970,10 @@ PART
 }
 PART
 {
-	part = sasModule_4290314258
+	part = sasModule_4286785368
 	partName = Part
-	persistentId = 3323094397
-	pos = -0.0408356488,9.63756371,0.0649839416
+	persistentId = 2908507142
+	pos = -0.0312055126,15.3626242,0.253882915
 	attPos = 0,0.0911111832,0
 	attPos0 = 0,-0.0911111832,0
 	rot = 0,0,0,1
@@ -1993,9 +1993,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = liquidEngineMini_4290314230
-	attN = bottom,liquidEngineMini_4290314230_0|-0.0911109|0
-	attN = top,MEMLander_4290315674_0|0.0911109|0
+	link = liquidEngineMini_4286785340
+	attN = bottom,liquidEngineMini_4286785340_0|-0.0911109|0
+	attN = top,MEMLander_4286786784_0|0.0911109|0
 	EVENTS
 	{
 	}
@@ -2047,10 +2047,10 @@ PART
 }
 PART
 {
-	part = liquidEngineMini_4290314230
+	part = liquidEngineMini_4286785340
 	partName = Part
-	persistentId = 2018790743
-	pos = -0.0408356488,9.54645252,0.0649839416
+	persistentId = 3089828764
+	pos = -0.0312055126,15.271513,0.253882915
 	attPos = 0,0,0
 	attPos0 = 0,-0.0911111832,0
 	rot = 0,0,0,1
@@ -2070,7 +2070,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	attN = top,sasModule_4290314258_0|0|0
+	attN = top,sasModule_4286785368_0|0|0
 	EVENTS
 	{
 	}
@@ -2210,10 +2210,10 @@ PART
 }
 PART
 {
-	part = Decoupler.1p5_4290314154
+	part = Decoupler.1p5_4286785264
 	partName = Part
-	persistentId = 407958047
-	pos = -0.0408356488,9.3125639,0.0649839416
+	persistentId = 1373715378
+	pos = -0.0312055126,15.0376244,0.253882915
 	attPos = 0,0,0
 	attPos0 = 0,-0.324999809,0
 	rot = 0,0,0,1
@@ -2233,10 +2233,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = Size1p5.Tank.01_4290314082
-	link = telescopicLadder_4290312164
-	attN = top,MEMLander_4290315674_0|0.075|0
-	attN = bottom,Size1p5.Tank.01_4290314082_0|-0.075|0
+	link = Size1p5.Tank.01_4286785192
+	link = telescopicLadder_4286783544
+	attN = top,MEMLander_4286786784_0|0.075|0
+	attN = bottom,Size1p5.Tank.01_4286785192_0|-0.075|0
 	EVENTS
 	{
 	}
@@ -2317,10 +2317,10 @@ PART
 }
 PART
 {
-	part = Size1p5.Tank.01_4290314082
+	part = Size1p5.Tank.01_4286785192
 	partName = Part
-	persistentId = 3144522119
-	pos = -0.0408356488,9.00318909,0.0649839416
+	persistentId = 3072289725
+	pos = -0.0312055126,14.7282495,0.253882915
 	attPos = 0,0.116370201,0
 	attPos0 = 0,-0.309374809,0
 	rot = 0,0,0,1
@@ -2340,24 +2340,22 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = solarPanels4_4290314024
-	link = solarPanels4_4290313924
-	link = mediumDishAntenna_4290313824
-	link = SurfaceScanner_4290313616
-	link = probeStackSmall_4290313584
-	link = miniLandingLeg_4290313052
-	link = miniLandingLeg_4290312880
-	link = miniLandingLeg_4290312708
-	link = miniLandingLeg_4290312536
-	link = SurfAntenna_4290312364
-	link = externalTankCapsule_4290312336
-	link = externalTankCapsule_4290312310
-	link = externalTankCapsule_4290312284
-	link = externalTankCapsule_4290312258
-	link = batteryPack_4290312232
-	link = batteryPack_4290312198
-	attN = top,Decoupler.1p5_4290314154_0|0.234375|0
-	attN = bottom,probeStackSmall_4290313584_0|-0.234375|0
+	link = solarPanels4_4286785134
+	link = solarPanels4_4286785034
+	link = mediumDishAntenna_4286784934
+	link = SurfaceScanner_4286784726
+	link = probeStackSmall_4286784694
+	link = miniLandingLeg_4286784520
+	link = miniLandingLeg_4286784348
+	link = miniLandingLeg_4286784176
+	link = miniLandingLeg_4286784004
+	link = SurfAntenna_4286783832
+	link = LiquidEngineRV-1_4286783804
+	link = LiquidEngineRV-1_4286783708
+	link = batteryPack_4286783612
+	link = batteryPack_4286783578
+	attN = top,Decoupler.1p5_4286785264_0|0.234375|0
+	attN = bottom,probeStackSmall_4286784694_0|-0.234375|0
 	EVENTS
 	{
 	}
@@ -2407,10 +2405,10 @@ PART
 }
 PART
 {
-	part = solarPanels4_4290314024
+	part = solarPanels4_4286785134
 	partName = Part
-	persistentId = 2553113351
-	pos = -0.506791115,9.09395885,0.872042537
+	persistentId = 52706323
+	pos = -0.497161001,14.8190193,1.06094146
 	attPos = 0,0,0
 	attPos0 = -0.465955496,0.0907697678,0.807058573
 	rot = 0,0.5,0,0.866025448
@@ -2430,8 +2428,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = solarPanels4_4290313924
-	srfN = srfAttach,Size1p5.Tank.01_4290314082
+	sym = solarPanels4_4286785034
+	srfN = srfAttach,Size1p5.Tank.01_4286785192
 	EVENTS
 	{
 	}
@@ -2482,10 +2480,10 @@ PART
 }
 PART
 {
-	part = solarPanels4_4290313924
+	part = solarPanels4_4286785034
 	partName = Part
-	persistentId = 2768956734
-	pos = 0.425119787,9.09395885,0.872042537
+	persistentId = 2138086976
+	pos = 0.434749931,14.8190193,1.06094146
 	attPos = 0,0,0
 	attPos0 = 0.465955496,0.0907697678,0.807058573
 	rot = 0,0.866025388,0,0.49999997
@@ -2505,8 +2503,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = solarPanels4_4290314024
-	srfN = srfAttach,Size1p5.Tank.01_4290314082
+	sym = solarPanels4_4286785134
+	srfN = srfAttach,Size1p5.Tank.01_4286785192
 	EVENTS
 	{
 	}
@@ -2557,10 +2555,10 @@ PART
 }
 PART
 {
-	part = mediumDishAntenna_4290313824
+	part = mediumDishAntenna_4286784934
 	partName = Part
-	persistentId = 2287492024
-	pos = -0.0408356488,8.7805357,1.02089798
+	persistentId = 492691316
+	pos = -0.0312055126,14.5055962,1.20979691
 	attPos = 0,0,0
 	attPos0 = 0,-0.222653389,0.955914021
 	rot = 0.707106829,1.70443815E-09,-1.70443815E-09,0.707106829
@@ -2580,7 +2578,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,Size1p5.Tank.01_4290314082
+	srfN = srfAttach,Size1p5.Tank.01_4286785192
 	EVENTS
 	{
 	}
@@ -2648,10 +2646,10 @@ PART
 }
 PART
 {
-	part = SurfaceScanner_4290313616
+	part = SurfaceScanner_4286784726
 	partName = Part
-	persistentId = 7338938
-	pos = -0.0225936472,8.66881371,0.842502356
+	persistentId = 687818278
+	pos = -0.012963511,14.3938742,1.03140128
 	attPos = 0.0182420015,0,0
 	attPos0 = 0,-0.334375381,0.777518332
 	rot = 0.5,-0.5,-0.50000006,-0.5
@@ -2671,7 +2669,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,Size1p5.Tank.01_4290314082
+	srfN = srfAttach,Size1p5.Tank.01_4286785192
 	EVENTS
 	{
 	}
@@ -2762,10 +2760,10 @@ PART
 }
 PART
 {
-	part = probeStackSmall_4290313584
+	part = probeStackSmall_4286784694
 	partName = Part
-	persistentId = 2551306090
-	pos = -0.0408356488,8.66881371,0.0649839416
+	persistentId = 4061840339
+	pos = -0.0312055126,14.3938742,0.253882915
 	attPos = 0,0.16461277,0
 	attPos0 = 0,-0.334375381,0
 	rot = 0,0,0,1
@@ -2785,9 +2783,13 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = batteryBank_4290313540
-	attN = bottom,batteryBank_4290313540_0|-0.1|0
-	attN = top,Size1p5.Tank.01_4290314082_0|0.1|0
+	link = batteryBank_4286784650
+	link = externalTankRound_4286784624
+	link = externalTankRound_4286784598
+	link = externalTankRound_4286784572
+	link = externalTankRound_4286784546
+	attN = bottom,batteryBank_4286784650_0|-0.1|0
+	attN = top,Size1p5.Tank.01_4286785192_0|0.1|0
 	EVENTS
 	{
 	}
@@ -2995,10 +2997,10 @@ PART
 }
 PART
 {
-	part = batteryBank_4290313540
+	part = batteryBank_4286784650
 	partName = Part
-	persistentId = 1678907056
-	pos = -0.0408356488,8.67358875,0.0649839416
+	persistentId = 3530855832
+	pos = -0.0312055126,14.3986492,0.253882915
 	attPos = 0,0.215630531,0
 	attPos0 = 0,-0.210855484,0
 	rot = 0,0,0,1
@@ -3018,9 +3020,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = advSasModule_4290313514
-	attN = top,probeStackSmall_4290313584_0|0.1108553|0
-	attN = bottom,advSasModule_4290313514_0|-0.1108553|0
+	link = sasModule_4286782922
+	attN = top,probeStackSmall_4286784694_0|0.1108553|0
+	attN = bottom,sasModule_4286782922_0|-0.1108553|0
 	EVENTS
 	{
 	}
@@ -3044,15 +3046,15 @@ PART
 }
 PART
 {
-	part = advSasModule_4290313514
+	part = externalTankRound_4286784624
 	partName = Part
-	persistentId = 4191978214
-	pos = -0.0408356488,8.62209129,0.0649839416
-	attPos = 0,0.258384705,0
-	attPos0 = 0,-0.309882164,0
-	rot = 0,0.382683456,0,0.923879504
-	attRot = 0,0.382683516,0,0.923879623
-	attRot0 = 0,0.382683456,0,0.923879504
+	persistentId = 332906656
+	pos = -0.570711732,14.2076845,-0.27717337
+	attPos = 0.101079047,-0.086388588,0.10952878
+	attPos0 = -0.640585244,-0.0998010635,-0.640585065
+	rot = -4.83866813E-08,-0.382683367,1.16815812E-07,0.923879564
+	attRot = 0,0,0,-0.999999881
+	attRot0 = -4.83866813E-08,-0.382683367,1.16815812E-07,0.923879564
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
@@ -3063,13 +3065,258 @@ PART
 	sidx = -1
 	sqor = -1
 	sepI = 0
-	attm = 0
+	attm = 1
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = externalTankToroid_4290313486
-	attN = top,batteryBank_4290313540_0|0.1990267|0
-	attN = bottom,externalTankToroid_4290313486_0|-0.1990267|0
+	sym = externalTankRound_4286784598
+	sym = externalTankRound_4286784572
+	sym = externalTankRound_4286784546
+	srfN = srfAttach,probeStackSmall_4286784694
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 9.9000000000000004
+		maxAmount = 9.9000000000000004
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 12.1
+		maxAmount = 12.1
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = externalTankRound_4286784598
+	partName = Part
+	persistentId = 2298858005
+	pos = -0.56226182,14.2076845,0.793389082
+	attPos = 0.10952878,-0.086388588,-0.101079047
+	attPos0 = -0.640585065,-0.0998010635,0.640585184
+	rot = 4.83867026E-08,0.382683486,1.16815798E-07,0.923879504
+	attRot = 0,0,0,-0.999999881
+	attRot0 = 4.83867026E-08,0.382683486,1.16815798E-07,0.923879504
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = externalTankRound_4286784624
+	sym = externalTankRound_4286784572
+	sym = externalTankRound_4286784546
+	srfN = srfAttach,probeStackSmall_4286784694
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 9.9000000000000004
+		maxAmount = 9.9000000000000004
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 12.1
+		maxAmount = 12.1
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = externalTankRound_4286784572
+	partName = Part
+	persistentId = 1087184618
+	pos = 0.508300722,14.2076845,0.78493917
+	attPos = -0.101079106,-0.086388588,-0.10952878
+	attPos0 = 0.640585363,-0.0998010635,0.640585005
+	rot = 1.16815812E-07,0.923879564,4.83866778E-08,0.382683337
+	attRot = 0,0,0,-0.999999881
+	attRot0 = 1.16815812E-07,0.923879564,4.83866778E-08,0.382683337
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = externalTankRound_4286784624
+	sym = externalTankRound_4286784598
+	sym = externalTankRound_4286784546
+	srfN = srfAttach,probeStackSmall_4286784694
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 9.9000000000000004
+		maxAmount = 9.9000000000000004
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 12.1
+		maxAmount = 12.1
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = externalTankRound_4286784546
+	partName = Part
+	persistentId = 3629218498
+	pos = 0.49985072,14.2076845,-0.285623282
+	attPos = -0.10952878,-0.086388588,0.101079106
+	attPos0 = 0.640585005,-0.0998010635,-0.640585303
+	rot = 1.16815798E-07,0.923879504,-4.83867026E-08,-0.382683486
+	attRot = 0,0,0,-0.999999881
+	attRot0 = 1.16815798E-07,0.923879504,-4.83867026E-08,-0.382683486
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = externalTankRound_4286784624
+	sym = externalTankRound_4286784598
+	sym = externalTankRound_4286784572
+	srfN = srfAttach,probeStackSmall_4286784694
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 9.9000000000000004
+		maxAmount = 9.9000000000000004
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 12.1
+		maxAmount = 12.1
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = miniLandingLeg_4286784520
+	partName = Part
+	persistentId = 3896785237
+	pos = -0.74043864,14.2688942,-0.445714086
+	attPos = -0.0506716371,-0.185172081,-0.0410354137
+	attPos0 = -0.658561468,-0.274183273,-0.658561587
+	rot = 0,0.382683456,0,-0.923879623
+	attRot = 0,0,0,1
+	attRot0 = 0,0.382683456,0,-0.923879623
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = ForceHeaviest
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = miniLandingLeg_4286784348
+	sym = miniLandingLeg_4286784176
+	sym = miniLandingLeg_4286784004
+	srfN = srfAttach,Size1p5.Tank.01_4286785192
 	EVENTS
 	{
 	}
@@ -3081,34 +3328,561 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleReactionWheel
+		name = ModuleWheelBase
 		isEnabled = True
-		actuatorModeCycle = 0
-		authorityLimiter = 100
-		stateString = Active
+		wheelType = LEG
+		isGrounded = False
+		autoFriction = False
+		frictionMultiplier = 1
 		stagingEnabled = True
-		WheelState = Active
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
-			CycleAction
+			ActAutoFrictionToggle
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
-			Activate
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelSuspension
+		isEnabled = True
+		springTweakable = 1
+		damperTweakable = 1
+		suspensionPos = (-1, -1, -1)
+		autoBoost = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelDeployment
+		isEnabled = True
+		shieldedCanDeploy = False
+		stateDisplayString = Deployed
+		stateString = Deployed
+		stagingEnabled = True
+		position = 1
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = Gear
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelLock
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelDamage
+		isEnabled = True
+		isDamaged = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = miniLandingLeg_4286784348
+	partName = Part
+	persistentId = 515138726
+	pos = -0.730802536,14.2688942,0.963115931
+	attPos = -0.0410354137,-0.185172081,0.0506716371
+	attPos0 = -0.658561587,-0.274183273,0.658561409
+	rot = 0,-0.382683456,0,-0.923879564
+	attRot = 0,0,0,1
+	attRot0 = 0,-0.382683456,0,-0.923879564
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = ForceHeaviest
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = miniLandingLeg_4286784520
+	sym = miniLandingLeg_4286784176
+	sym = miniLandingLeg_4286784004
+	srfN = srfAttach,Size1p5.Tank.01_4286785192
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleWheelBase
+		isEnabled = True
+		wheelType = LEG
+		isGrounded = False
+		autoFriction = False
+		frictionMultiplier = 1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActAutoFrictionToggle
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
-			Deactivate
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelSuspension
+		isEnabled = True
+		springTweakable = 1
+		damperTweakable = 1
+		suspensionPos = (-1, -1, -1)
+		autoBoost = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelDeployment
+		isEnabled = True
+		shieldedCanDeploy = False
+		stateDisplayString = Deployed
+		stateString = Deployed
+		stagingEnabled = True
+		position = 1
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = Gear
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelLock
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelDamage
+		isEnabled = True
+		isDamaged = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = miniLandingLeg_4286784176
+	partName = Part
+	persistentId = 4125726867
+	pos = 0.678027689,14.2688942,0.953479886
+	attPos = 0.0506716967,-0.185172081,0.0410354137
+	attPos0 = 0.658561528,-0.274183273,0.658561528
+	rot = 0,-0.923879623,0,-0.382683426
+	attRot = 0,0,0,1
+	attRot0 = 0,-0.923879623,0,-0.382683426
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = ForceHeaviest
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = miniLandingLeg_4286784520
+	sym = miniLandingLeg_4286784348
+	sym = miniLandingLeg_4286784004
+	srfN = srfAttach,Size1p5.Tank.01_4286785192
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleWheelBase
+		isEnabled = True
+		wheelType = LEG
+		isGrounded = False
+		autoFriction = False
+		frictionMultiplier = 1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActAutoFrictionToggle
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
-			Toggle
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelSuspension
+		isEnabled = True
+		springTweakable = 1
+		damperTweakable = 1
+		suspensionPos = (-1, -1, -1)
+		autoBoost = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelDeployment
+		isEnabled = True
+		shieldedCanDeploy = False
+		stateDisplayString = Deployed
+		stateString = Deployed
+		stagingEnabled = True
+		position = 1
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = Gear
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelLock
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelDamage
+		isEnabled = True
+		isDamaged = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = miniLandingLeg_4286784004
+	partName = Part
+	persistentId = 3864058516
+	pos = 0.668391407,14.2688942,-0.45535025
+	attPos = 0.0410354137,-0.185172081,-0.0506716967
+	attPos0 = 0.658561528,-0.274183273,-0.658561468
+	rot = 0,-0.923879564,0,0.382683456
+	attRot = 0,0,0,1
+	attRot0 = 0,-0.923879564,0,0.382683456
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = ForceHeaviest
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = miniLandingLeg_4286784520
+	sym = miniLandingLeg_4286784348
+	sym = miniLandingLeg_4286784176
+	srfN = srfAttach,Size1p5.Tank.01_4286785192
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleWheelBase
+		isEnabled = True
+		wheelType = LEG
+		isGrounded = False
+		autoFriction = False
+		frictionMultiplier = 1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActAutoFrictionToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelSuspension
+		isEnabled = True
+		springTweakable = 1
+		damperTweakable = 1
+		suspensionPos = (-1, -1, -1)
+		autoBoost = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelDeployment
+		isEnabled = True
+		shieldedCanDeploy = False
+		stateDisplayString = Deployed
+		stateString = Deployed
+		stagingEnabled = True
+		position = 1
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = Gear
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelLock
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelDamage
+		isEnabled = True
+		isDamaged = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = SurfAntenna_4286783832
+	partName = Part
+	persistentId = 3169260825
+	pos = -0.0312054269,14.6766224,-0.721162915
+	attPos = 0,0,0
+	attPos0 = 8.56816769E-08,-0.0516271591,-0.9750458
+	rot = 3.59872523E-08,0.707106829,-0.707106829,3.59872558E-08
+	attRot = 0,0,0,1
+	attRot0 = 3.59872523E-08,0.707106829,-0.707106829,3.59872558E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,Size1p5.Tank.01_4286785192
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDataTransmitter
+		isEnabled = True
+		xmitIncomplete = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartTransmissionAction
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
@@ -3121,315 +3895,15 @@ PART
 }
 PART
 {
-	part = externalTankToroid_4290313486
+	part = LiquidEngineRV-1_4286783804
 	partName = Part
-	persistentId = 2471274576
-	pos = -0.0408356488,8.54825115,0.0649839416
-	attPos = 0,0.25018692,0
-	attPos0 = 0,-0.324027061,0
-	rot = 0,0,0,1
+	persistentId = 3126997196
+	pos = 1.10137773,14.5019274,0.253882945
+	attPos = 0.0464462042,0,0
+	attPos0 = 1.08613706,-0.226322174,2.98023224E-08
+	rot = 0,0.707106829,0,0.707106829
 	attRot = 0,0,0,1
-	attRot0 = 0,-0.382683456,0,0.923879504
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 0
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 0
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = externalTankToroid_4290313414
-	attN = top,advSasModule_4290313514_0|0.125|0
-	attN = bottom,externalTankToroid_4290313414_0|-0.125|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 27
-		maxAmount = 27
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 33
-		maxAmount = 33
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = externalTankToroid_4290313414
-	partName = Part
-	persistentId = 502355285
-	pos = -0.0408356488,8.54719543,0.0649839416
-	attPos = 0,0.248944283,0
-	attPos0 = 0,-0.25,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 0
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 0
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = externalTankToroid_4290313342
-	attN = top,externalTankToroid_4290313486_0|0.125|0
-	attN = bottom,externalTankToroid_4290313342_0|-0.125|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 27
-		maxAmount = 27
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 33
-		maxAmount = 33
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = externalTankToroid_4290313342
-	partName = Part
-	persistentId = 4117927011
-	pos = -0.0408356488,8.42059326,0.0649839416
-	attPos = 0,0.123397827,0
-	attPos0 = 0,-0.25,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 0
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 0
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = toroidalFuelTank_4290313270
-	attN = top,externalTankToroid_4290313414_0|0.125|0
-	attN = bottom,toroidalFuelTank_4290313270_0|-0.125|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 27
-		maxAmount = 27
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 33
-		maxAmount = 33
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = toroidalFuelTank_4290313270
-	partName = Part
-	persistentId = 2124547238
-	pos = -0.0408356488,8.33340549,0.0649839416
-	attPos = 0,0.0876750946,0
-	attPos0 = 0,-0.174862862,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 0
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 0
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = toroidalFuelTank_4290313208
-	attN = top,externalTankToroid_4290313342_0|0.0498631|0
-	attN = bottom,toroidalFuelTank_4290313208_0|-0.0498631|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 27
-		maxAmount = 27
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 33
-		maxAmount = 33
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = toroidalFuelTank_4290313208
-	partName = Part
-	persistentId = 3283089021
-	pos = -0.0408356488,8.3421402,0.0649839416
-	attPos = 0,0.108460426,0
-	attPos0 = 0,-0.0997257233,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 0
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 0
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = liquidEngine3_4290313146
-	attN = top,toroidalFuelTank_4290313270_0|0.0498631|0
-	attN = bottom,liquidEngine3_4290313146_0|-0.0498631|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 27
-		maxAmount = 27
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 33
-		maxAmount = 33
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = liquidEngine3_4290313146
-	partName = Part
-	persistentId = 3989116958
-	pos = -0.0408356488,8.13513279,0.0649839416
-	attPos = 0,0.130355835,0
-	attPos0 = 0,-0.337363243,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
+	attRot0 = 0,0.707106829,0,0.707106829
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
@@ -3440,11 +3914,13 @@ PART
 	sidx = 0
 	sqor = 1
 	sepI = 0
-	attm = 0
+	attm = 1
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	attN = top,toroidalFuelTank_4290313208_0|0.2875|0
+	link = solarPanels5_4286783736
+	sym = LiquidEngineRV-1_4286783708
+	srfN = srfAttach,Size1p5.Tank.01_4286785192
 	EVENTS
 	{
 	}
@@ -3456,7 +3932,7 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleEngines
+		name = ModuleEnginesFX
 		isEnabled = True
 		staged = False
 		flameout = False
@@ -3496,7 +3972,7 @@ PART
 		name = ModuleGimbal
 		isEnabled = True
 		gimbalLock = False
-		gimbalLimiter = 100
+		gimbalLimiter = 8
 		currentShowToggles = False
 		enableYaw = True
 		enablePitch = True
@@ -3543,92 +4019,23 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = FXModuleAnimateThrottle
-		isEnabled = True
-		animState = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTestSubject
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
-	part = miniLandingLeg_4290313052
+	part = solarPanels5_4286783736
 	partName = Part
-	persistentId = 169896113
-	pos = -0.750068784,8.54383373,-0.634613037
-	attPos = -0.0506716967,-0.185172081,-0.0410354137
-	attPos0 = -0.658561468,-0.274183273,-0.658561587
-	rot = 0,0.382683456,0,-0.923879623
+	persistentId = 566273542
+	pos = 1.11999285,14.634305,0.253882945
+	attPos = 5.58792612E-09,0,-0.0497036353
+	attPos0 = -7.45057038E-09,0.132377625,0.0683187544
+	rot = 0.207059592,-0.676111221,-0.207059562,-0.676111221
 	attRot = 0,0,0,1
-	attRot0 = 0,0.382683456,0,-0.923879623
+	attRot0 = 0.292826474,0,1.49011612E-08,-0.956165612
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = ForceHeaviest
+	autostrutMode = Off
 	rigidAttachment = False
-	istg = 0
+	istg = 1
 	resPri = 0
 	dstg = 2
 	sidx = -1
@@ -3638,10 +4045,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = miniLandingLeg_4290312880
-	sym = miniLandingLeg_4290312708
-	sym = miniLandingLeg_4290312536
-	srfN = srfAttach,Size1p5.Tank.01_4290314082
+	sym = solarPanels5_4286783640
+	srfN = srfAttach,LiquidEngineRV-1_4286783804
 	EVENTS
 	{
 	}
@@ -3653,97 +4058,38 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleWheelBase
+		name = ModuleDeployableSolarPanel
 		isEnabled = True
-		wheelType = LEG
-		isGrounded = False
-		autoFriction = False
-		frictionMultiplier = 1
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, -6.057208E-07, 0, 1)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		deployState = EXTENDED
 		stagingEnabled = True
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
-			ActAutoFrictionToggle
+			ExtendPanelsAction
 			{
 				actionGroup = None
+				active = False
 				wasActiveBeforePartWasAdjusted = False
 			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelSuspension
-		isEnabled = True
-		springTweakable = 1
-		damperTweakable = 1
-		suspensionPos = (-1, -1, -1)
-		autoBoost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelDeployment
-		isEnabled = True
-		shieldedCanDeploy = False
-		stateDisplayString = Deployed
-		stateString = Deployed
-		stagingEnabled = True
-		position = 1
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionToggle
+			ExtendAction
 			{
-				actionGroup = Gear
+				actionGroup = None
+				active = False
 				wasActiveBeforePartWasAdjusted = False
 			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelLock
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelDamage
-		isEnabled = True
-		isDamaged = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
+			RetractAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
 		}
 		UPGRADESAPPLIED
 		{
@@ -3752,33 +4098,32 @@ PART
 }
 PART
 {
-	part = miniLandingLeg_4290312880
+	part = LiquidEngineRV-1_4286783708
 	partName = Part
-	persistentId = 718904156
-	pos = -0.74043262,8.54383373,0.77421701
-	attPos = -0.0410354137,-0.185172081,0.0506716371
-	attPos0 = -0.658561587,-0.274183273,0.658561409
-	rot = 0,-0.382683456,0,-0.923879564
+	persistentId = 3151358429
+	pos = -1.1637888,14.5019274,0.253882974
+	attPos = -0.0464462042,0,0
+	attPos0 = -1.08613706,-0.226322174,5.96046448E-08
+	rot = 0,0.707106769,0,-0.707106888
 	attRot = 0,0,0,1
-	attRot0 = 0,-0.382683456,0,-0.923879564
+	attRot0 = 0,0.707106769,0,-0.707106888
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = ForceHeaviest
+	autostrutMode = Off
 	rigidAttachment = False
-	istg = 0
+	istg = 1
 	resPri = 0
 	dstg = 2
-	sidx = -1
-	sqor = -1
+	sidx = 0
+	sqor = 1
 	sepI = 0
 	attm = 1
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = miniLandingLeg_4290313052
-	sym = miniLandingLeg_4290312708
-	sym = miniLandingLeg_4290312536
-	srfN = srfAttach,Size1p5.Tank.01_4290314082
+	link = solarPanels5_4286783640
+	sym = LiquidEngineRV-1_4286783804
+	srfN = srfAttach,Size1p5.Tank.01_4286785192
 	EVENTS
 	{
 	}
@@ -3790,19 +4135,32 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleWheelBase
+		name = ModuleEnginesFX
 		isEnabled = True
-		wheelType = LEG
-		isGrounded = False
-		autoFriction = False
-		frictionMultiplier = 1
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
 		stagingEnabled = True
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
-			ActAutoFrictionToggle
+			OnAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ActivateAction
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
@@ -3814,73 +4172,51 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleWheelSuspension
+		name = ModuleGimbal
 		isEnabled = True
-		springTweakable = 1
-		damperTweakable = 1
-		suspensionPos = (-1, -1, -1)
-		autoBoost = 0
+		gimbalLock = False
+		gimbalLimiter = 8
+		currentShowToggles = False
+		enableYaw = True
+		enablePitch = True
+		enableRoll = True
+		gimbalActive = False
 		stagingEnabled = True
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelDeployment
-		isEnabled = True
-		shieldedCanDeploy = False
-		stateDisplayString = Deployed
-		stateString = Deployed
-		stagingEnabled = True
-		position = 1
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionToggle
+			ToggleAction
 			{
-				actionGroup = Gear
+				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelLock
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelDamage
-		isEnabled = True
-		isDamaged = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
+			LockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			FreeAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			TogglePitchAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleYawAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleRollAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
 		}
 		UPGRADESAPPLIED
 		{
@@ -3889,20 +4225,20 @@ PART
 }
 PART
 {
-	part = miniLandingLeg_4290312708
+	part = solarPanels5_4286783640
 	partName = Part
-	persistentId = 1522199057
-	pos = 0.668397546,8.54383373,0.764580965
-	attPos = 0.0506716371,-0.185172081,0.0410354733
-	attPos0 = 0.658561528,-0.274183273,0.658561528
-	rot = 0,-0.923879623,0,-0.382683426
+	persistentId = 2437769512
+	pos = -1.18240392,14.634305,0.253882974
+	attPos = 5.58792612E-09,0,-0.0497036353
+	attPos0 = -7.45057038E-09,0.132377625,0.0683187544
+	rot = -0.207059577,-0.676111162,-0.207059577,0.676111281
 	attRot = 0,0,0,1
-	attRot0 = 0,-0.923879623,0,-0.382683426
+	attRot0 = 0.292826444,0,1.49011594E-08,-0.956165612
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = ForceHeaviest
+	autostrutMode = Off
 	rigidAttachment = False
-	istg = 0
+	istg = 1
 	resPri = 0
 	dstg = 2
 	sidx = -1
@@ -3912,10 +4248,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = miniLandingLeg_4290313052
-	sym = miniLandingLeg_4290312880
-	sym = miniLandingLeg_4290312536
-	srfN = srfAttach,Size1p5.Tank.01_4290314082
+	sym = solarPanels5_4286783736
+	srfN = srfAttach,LiquidEngineRV-1_4286783708
 	EVENTS
 	{
 	}
@@ -3927,97 +4261,38 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleWheelBase
+		name = ModuleDeployableSolarPanel
 		isEnabled = True
-		wheelType = LEG
-		isGrounded = False
-		autoFriction = False
-		frictionMultiplier = 1
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, -6.057208E-07, 0, 1)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		deployState = EXTENDED
 		stagingEnabled = True
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
-			ActAutoFrictionToggle
+			ExtendPanelsAction
 			{
 				actionGroup = None
+				active = False
 				wasActiveBeforePartWasAdjusted = False
 			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelSuspension
-		isEnabled = True
-		springTweakable = 1
-		damperTweakable = 1
-		suspensionPos = (-1, -1, -1)
-		autoBoost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelDeployment
-		isEnabled = True
-		shieldedCanDeploy = False
-		stateDisplayString = Deployed
-		stateString = Deployed
-		stagingEnabled = True
-		position = 1
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionToggle
+			ExtendAction
 			{
-				actionGroup = Gear
+				actionGroup = None
+				active = False
 				wasActiveBeforePartWasAdjusted = False
 			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelLock
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelDamage
-		isEnabled = True
-		isDamaged = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
+			RetractAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
 		}
 		UPGRADESAPPLIED
 		{
@@ -4026,154 +4301,17 @@ PART
 }
 PART
 {
-	part = miniLandingLeg_4290312536
+	part = batteryPack_4286783612
 	partName = Part
-	persistentId = 3578940728
-	pos = 0.658761263,8.54383373,-0.644249201
-	attPos = 0.0410353541,-0.185172081,-0.0506716967
-	attPos0 = 0.658561528,-0.274183273,-0.658561468
-	rot = 0,-0.923879564,0,0.382683456
-	attRot = 0,0,0,1
-	attRot0 = 0,-0.923879564,0,0.382683456
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = ForceHeaviest
-	rigidAttachment = False
-	istg = 0
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = miniLandingLeg_4290313052
-	sym = miniLandingLeg_4290312880
-	sym = miniLandingLeg_4290312708
-	srfN = srfAttach,Size1p5.Tank.01_4290314082
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleWheelBase
-		isEnabled = True
-		wheelType = LEG
-		isGrounded = False
-		autoFriction = False
-		frictionMultiplier = 1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActAutoFrictionToggle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelSuspension
-		isEnabled = True
-		springTweakable = 1
-		damperTweakable = 1
-		suspensionPos = (-1, -1, -1)
-		autoBoost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelDeployment
-		isEnabled = True
-		shieldedCanDeploy = False
-		stateDisplayString = Deployed
-		stateString = Deployed
-		stagingEnabled = True
-		position = 1
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionToggle
-			{
-				actionGroup = Gear
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelLock
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelDamage
-		isEnabled = True
-		isDamaged = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = SurfAntenna_4290312364
-	partName = Part
-	persistentId = 1454889147
-	pos = -0.0408355631,8.95156193,-0.910061836
+	persistentId = 2950550971
+	pos = 0.715937018,14.4938745,0.253882945
 	attPos = 0,0,0
-	attPos0 = 8.56816769E-08,-0.0516271591,-0.9750458
-	rot = 3.59872523E-08,0.707106829,-0.707106829,3.59872558E-08
-	attRot = 0,0,0,1
-	attRot0 = 3.59872523E-08,0.707106829,-0.707106829,3.59872558E-08
+	attPos0 = 0.747142553,-0.234375,2.98023224E-08
+	rot = -0.704416037,-0.0616284236,-0.0616284199,0.704416037
+	attRot = 1.34364309E-09,-1.60129165E-09,-0.996194601,-0.0871557444
+	attRot0 = -0.704416037,-0.0616284236,-0.0616284199,0.704416037
 	mir = 1,1,1
-	symMethod = Radial
+	symMethod = Mirror
 	autostrutMode = Off
 	rigidAttachment = False
 	istg = 0
@@ -4186,309 +4324,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,Size1p5.Tank.01_4290314082
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleDataTransmitter
-		isEnabled = True
-		xmitIncomplete = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartTransmissionAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = externalTankCapsule_4290312336
-	partName = Part
-	persistentId = 3064072073
-	pos = 0.231753021,8.52097797,0.33303237
-	attPos = 0.842763245,0.0521631241,0.8382231
-	attPos0 = -0.570174575,-0.534374237,-0.570174634
-	rot = 0.270598054,0.270598054,-0.65328151,-0.65328151
-	attRot = 0.382683486,0,0,0.923879564
-	attRot0 = 0.65328151,0.65328151,0.270598054,0.270598054
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 0
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = externalTankCapsule_4290312310
-	sym = externalTankCapsule_4290312284
-	sym = externalTankCapsule_4290312258
-	srfN = srfAttach,Size1p5.Tank.01_4290314082
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 24.300000000000001
-		maxAmount = 24.300000000000001
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 29.699999999999999
-		maxAmount = 29.699999999999999
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = externalTankCapsule_4290312310
-	partName = Part
-	persistentId = 403984315
-	pos = -0.308884084,8.52097797,0.337572634
-	attPos = 0.302126199,0.0521631241,-0.297585875
-	attPos0 = -0.570174634,-0.534374237,0.570174575
-	rot = 0.65328151,0.65328151,-0.270598054,-0.270598054
-	attRot = 0.382683486,0,0,0.923879564
-	attRot0 = 0.65328151,0.65328151,-0.270598084,-0.270598084
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 0
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = externalTankCapsule_4290312336
-	sym = externalTankCapsule_4290312284
-	sym = externalTankCapsule_4290312258
-	srfN = srfAttach,Size1p5.Tank.01_4290314082
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 24.300000000000001
-		maxAmount = 24.300000000000001
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 29.699999999999999
-		maxAmount = 29.699999999999999
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = externalTankCapsule_4290312284
-	partName = Part
-	persistentId = 4174527519
-	pos = 0.227212757,8.52097797,-0.207604796
-	attPos = -0.302126229,0.0521631241,-0.842763305
-	attPos0 = 0.570174634,-0.534374237,0.570174575
-	rot = -0.270598084,-0.270598084,-0.65328151,-0.65328151
-	attRot = 0.382683486,0,0,0.923879564
-	attRot0 = 0.270598024,0.270598024,-0.65328151,-0.65328151
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 0
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = externalTankCapsule_4290312336
-	sym = externalTankCapsule_4290312310
-	sym = externalTankCapsule_4290312258
-	srfN = srfAttach,Size1p5.Tank.01_4290314082
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 24.300000000000001
-		maxAmount = 24.300000000000001
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 29.699999999999999
-		maxAmount = 29.699999999999999
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = externalTankCapsule_4290312258
-	partName = Part
-	persistentId = 2015594302
-	pos = -0.313424349,8.52097797,-0.203064471
-	attPos = -0.842763305,0.0521631241,0.302126169
-	attPos0 = 0.570174575,-0.534374237,-0.570174575
-	rot = -0.65328151,-0.65328151,-0.270598054,-0.270598054
-	attRot = 0.382683486,0,0,0.923879564
-	attRot0 = -0.270598084,-0.270598084,-0.65328151,-0.65328151
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 0
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = externalTankCapsule_4290312336
-	sym = externalTankCapsule_4290312310
-	sym = externalTankCapsule_4290312284
-	srfN = srfAttach,Size1p5.Tank.01_4290314082
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 24.300000000000001
-		maxAmount = 24.300000000000001
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 29.699999999999999
-		maxAmount = 29.699999999999999
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = batteryPack_4290312232
-	partName = Part
-	persistentId = 3847012564
-	pos = -0.835639477,8.76881504,0.0649840012
-	attPos = 0,0,0
-	attPos0 = -0.794803858,-0.234374046,5.96046448E-08
-	rot = -0.5,0.5,0.50000006,0.5
-	attRot = 0,0,-0.707106709,0.707106709
-	attRot0 = -0.5,0.5,0.50000006,0.5
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 0
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = batteryPack_4290312198
-	srfN = srfAttach,Size1p5.Tank.01_4290314082
+	sym = batteryPack_4286783578
+	srfN = srfAttach,Size1p5.Tank.01_4286785192
 	EVENTS
 	{
 	}
@@ -4512,17 +4349,17 @@ PART
 }
 PART
 {
-	part = batteryPack_4290312198
+	part = batteryPack_4286783578
 	partName = Part
-	persistentId = 3179861246
-	pos = 0.753968239,8.76881504,0.0649838224
+	persistentId = 754995849
+	pos = -0.778348088,14.4938745,0.253882945
 	attPos = 0,0,0
-	attPos0 = 0.794803858,-0.234374046,-1.1920929E-07
-	rot = 0.50000006,0.49999997,0.49999997,-0.5
-	attRot = 0,0,-0.707106709,0.707106709
-	attRot0 = 0.50000006,0.49999997,0.49999997,-0.5
+	attPos0 = -0.747142553,-0.234375,2.98023224E-08
+	rot = -0.704416037,0.0616284236,0.0616284162,0.704416037
+	attRot = 1.34364309E-09,-1.60129165E-09,-0.996194601,-0.0871557444
+	attRot0 = -0.704416037,0.0616284236,0.0616284162,0.704416037
 	mir = 1,1,1
-	symMethod = Radial
+	symMethod = Mirror
 	autostrutMode = Off
 	rigidAttachment = False
 	istg = 0
@@ -4535,8 +4372,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = batteryPack_4290312232
-	srfN = srfAttach,Size1p5.Tank.01_4290314082
+	sym = batteryPack_4286783612
+	srfN = srfAttach,Size1p5.Tank.01_4286785192
 	EVENTS
 	{
 	}
@@ -4560,10 +4397,10 @@ PART
 }
 PART
 {
-	part = telescopicLadder_4290312164
+	part = telescopicLadder_4286783544
 	partName = Part
-	persistentId = 341868322
-	pos = -0.0408356488,9.3125639,-0.808071852
+	persistentId = 3033718879
+	pos = -0.0312055126,15.0376244,-0.619172931
 	attPos = 8.19563866E-08,-0.0288476944,0.0614396334
 	attPos0 = -8.19563866E-08,0.0288476944,-0.934495449
 	rot = -0.122787967,0.696364164,0.12278799,-0.696364284
@@ -4583,7 +4420,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,Decoupler.1p5_4290314154
+	srfN = srfAttach,Decoupler.1p5_4286785264
 	EVENTS
 	{
 	}
@@ -4627,10 +4464,10 @@ PART
 }
 PART
 {
-	part = rtg_4290311944
+	part = rtg_4286783324
 	partName = Part
-	persistentId = 1768865124
-	pos = -0.0562337339,10.388339,0.749483466
+	persistentId = 3058927095
+	pos = -0.0466035977,16.1133995,0.938382387
 	attPos = 0,0,0
 	attPos0 = -0.0153980851,0.750776291,0.684499443
 	rot = 0.5,0.5,-0.5,0.5
@@ -4650,7 +4487,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,MEMLander_4290315674
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -4716,10 +4553,10 @@ PART
 }
 PART
 {
-	part = longAntenna_4290311914
+	part = longAntenna_4286783294
 	partName = Part
-	persistentId = 1187474081
-	pos = 0.571056843,10.6802702,-0.0277111754
+	persistentId = 1521026042
+	pos = 0.580686927,16.4053307,0.161187798
 	attPos = 0,-0.0925617218,0
 	attPos0 = 0.611892462,1.04270649,-0.092695117
 	rot = 0.130320773,0.694993675,-0.130320624,0.694994152
@@ -4739,8 +4576,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = longAntenna_4290311850
-	srfN = srfAttach,MEMLander_4290315674
+	sym = longAntenna_4286783230
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -4808,10 +4645,10 @@ PART
 }
 PART
 {
-	part = longAntenna_4290311850
+	part = longAntenna_4286783230
 	partName = Part
-	persistentId = 4469278
-	pos = -0.652728081,10.6802702,-0.0277111754
+	persistentId = 2481293945
+	pos = -0.643097997,16.4053307,0.161187798
 	attPos = 0,-0.0925617218,0
 	attPos0 = -0.611892462,1.04270649,-0.092695117
 	rot = 0.130320773,-0.694993675,0.130320609,0.694994152
@@ -4831,8 +4668,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = longAntenna_4290311914
-	srfN = srfAttach,MEMLander_4290315674
+	sym = longAntenna_4286783294
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -4900,10 +4737,10 @@ PART
 }
 PART
 {
-	part = solarPanels3_4290311786
+	part = solarPanels3_4286783166
 	partName = Part
-	persistentId = 485063244
-	pos = 0.953439355,9.98547935,-0.0232544467
+	persistentId = 1181534316
+	pos = 0.963069439,15.7105398,0.165644526
 	attPos = 0,0,0
 	attPos0 = 0.994274974,0.347915649,-0.0882383883
 	rot = 0,1,0,0
@@ -4923,8 +4760,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = solarPanels3_4290311686
-	srfN = srfAttach,MEMLander_4290315674
+	sym = solarPanels3_4286783066
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -4975,10 +4812,10 @@ PART
 }
 PART
 {
-	part = solarPanels3_4290311686
+	part = solarPanels3_4286783066
 	partName = Part
-	persistentId = 982834310
-	pos = -1.03511059,9.98547935,-0.0232544467
+	persistentId = 20055689
+	pos = -1.02548051,15.7105398,0.165644526
 	attPos = 0,0,0
 	attPos0 = -0.994274974,0.347915649,-0.0882383883
 	rot = 0,-4.37113883E-08,0,-1
@@ -4998,8 +4835,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = solarPanels3_4290311786
-	srfN = srfAttach,MEMLander_4290315674
+	sym = solarPanels3_4286783166
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -5050,10 +4887,10 @@ PART
 }
 PART
 {
-	part = ladder1_4290311586
+	part = ladder1_4286782966
 	partName = Part
-	persistentId = 2795483424
-	pos = -0.0408356488,10.5356302,0.749981761
+	persistentId = 2533852776
+	pos = -0.0312055126,16.2606907,0.938880682
 	attPos = 0,0,0
 	attPos0 = 0,0.898066521,0.684997797
 	rot = 0,0.707106829,0,0.707106829
@@ -5073,7 +4910,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,MEMLander_4290315674
+	srfN = srfAttach,MEMLander_4286786784
 	EVENTS
 	{
 	}
@@ -5082,5 +4919,320 @@ PART
 	}
 	PARTDATA
 	{
+	}
+}
+PART
+{
+	part = sasModule_4286782922
+	partName = Part
+	persistentId = 3506453581
+	pos = -0.0312055126,14.1966829,0.253882915
+	attPos = 0,0.172618866,0
+	attPos0 = 0,-0.201966286,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = externalTankToroid_4286782894
+	attN = bottom,externalTankToroid_4286782894_0|-0.0911109|0
+	attN = top,batteryBank_4286784650_0|0.0911109|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		actuatorModeCycle = 0
+		authorityLimiter = 100
+		stateString = Active
+		stagingEnabled = True
+		WheelState = Active
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			CycleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			Activate
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			Deactivate
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			Toggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = externalTankToroid_4286782894
+	partName = Part
+	persistentId = 1708387021
+	pos = -0.0312055126,14.3680391,0.253882915
+	attPos = 0,0.387467384,0
+	attPos0 = 0,-0.216111183,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = externalTankToroid_4286782822
+	attN = top,sasModule_4286782922_0|0.125|0
+	attN = bottom,externalTankToroid_4286782822_0|-0.125|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 27
+		maxAmount = 27
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 33
+		maxAmount = 33
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = externalTankToroid_4286782822
+	partName = Part
+	persistentId = 2031616352
+	pos = -0.0312055126,14.3242588,0.253882915
+	attPos = 0,0.206219673,0
+	attPos0 = 0,-0.25,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = toroidalFuelTank_4286782750
+	attN = top,externalTankToroid_4286782894_0|0.125|0
+	attN = bottom,toroidalFuelTank_4286782750_0|-0.125|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 27
+		maxAmount = 27
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 33
+		maxAmount = 33
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = toroidalFuelTank_4286782750
+	partName = Part
+	persistentId = 1055988450
+	pos = -0.0312055126,14.1493959,0.253882915
+	attPos = 0,0.0785007477,0
+	attPos0 = 0,-0.174862862,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = toroidalFuelTank_4286782688
+	attN = top,externalTankToroid_4286782822_0|0.0498631|0
+	attN = bottom,toroidalFuelTank_4286782688_0|-0.0498631|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 27
+		maxAmount = 27
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 33
+		maxAmount = 33
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = toroidalFuelTank_4286782688
+	partName = Part
+	persistentId = 3839110273
+	pos = -0.0312055126,14.1581306,0.253882915
+	attPos = 0,0.108460426,0
+	attPos0 = 0,-0.0997257233,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = top,toroidalFuelTank_4286782750_0|0.0498631|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 27
+		maxAmount = 27
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 33
+		maxAmount = 33
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
 	}
 }

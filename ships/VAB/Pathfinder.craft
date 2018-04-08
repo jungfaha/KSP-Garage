@@ -1,6 +1,6 @@
 ship = Pathfinder
 version = 1.4.2
-description = ---- Pathfinder ----          ... Expansion ...¨-  Satalite: -¨*Relay data, *Science, *KerbNet, *Terrain mapping, *Telescope¨¨- Key Binds: -¨1. Toggle Display¨2. Extend Solar Panels¨3. Toggle comms & KernNET Access¨4. Log Data¨5. Collect Data¨6. Collect Data¨7. Collect Data¨¨Made by: Jungfaha
+description = ---- Pathfinder ----          ... Expansion ...¨-  Satalite: -¨*Relay data, *Science, *KerbNet, *Terrain mapping, *Telescope¨¨- Key Binds: -¨1. Toggle Display¨2. Extend Solar Panels¨3. Toggle comms & KernNET Access¨4. Log Data¨5. Collect Data¨6. Collect Data¨7. Collect Data¨8. KerbNet¨9. KerbNet (Ore)¨0. Toggle Engine¨¨Made by: Jungfaha
 type = VAB
 size = 4.24208355,7.01583862,4.09719133
 persistentId = 310942164
@@ -11,7 +11,7 @@ PART
 {
 	part = HECS2.ProbeCore_4288256028
 	partName = Part
-	persistentId = 2611730561
+	persistentId = 280953220
 	pos = 0.0254508238,27.8870583,-0.0700638592
 	attPos = 0,0,0
 	attPos0 = 0.0254508238,27.8870583,-0.0700638592
@@ -234,7 +234,7 @@ PART
 {
 	part = rtg_4287787464
 	partName = Part
-	persistentId = 2996964652
+	persistentId = 3281585728
 	pos = -0.352987289,27.1602554,0.585410357
 	attPos = 0,0,0
 	attPos0 = -0.378438115,-0.726801872,0.655474186
@@ -328,7 +328,7 @@ PART
 {
 	part = rtg_4287741604
 	partName = Part
-	persistentId = 3521312363
+	persistentId = 3146378380
 	pos = 0.40388906,27.1602554,0.585410237
 	attPos = 0,0,0
 	attPos0 = 0.378438234,-0.726801872,0.655474126
@@ -422,7 +422,7 @@ PART
 {
 	part = rtg_4287741570
 	partName = Part
-	persistentId = 2047729987
+	persistentId = 3837052903
 	pos = 0.782327235,27.1602554,-0.0700640157
 	attPos = 0,0,0
 	attPos0 = 0.756876409,-0.726801872,-1.55538544E-07
@@ -516,7 +516,7 @@ PART
 {
 	part = rtg_4287741536
 	partName = Part
-	persistentId = 1996697093
+	persistentId = 2628903513
 	pos = 0.403888881,27.1602554,-0.725538135
 	attPos = 0,0,0
 	attPos0 = 0.378438056,-0.726801872,-0.655474246
@@ -610,7 +610,7 @@ PART
 {
 	part = rtg_4287741502
 	partName = Part
-	persistentId = 1704419692
+	persistentId = 270771048
 	pos = -0.352987468,27.1602554,-0.725538015
 	attPos = 0,0,0
 	attPos0 = -0.378438294,-0.726801872,-0.655474126
@@ -704,7 +704,7 @@ PART
 {
 	part = rtg_4287741468
 	partName = Part
-	persistentId = 1332501900
+	persistentId = 4022336662
 	pos = -0.731425524,27.1602554,-0.0700639039
 	attPos = 0,0,0
 	attPos0 = -0.756876349,-0.726801872,-4.5852012E-08
@@ -798,7 +798,7 @@ PART
 {
 	part = batteryBank_4287695080
 	partName = Part
-	persistentId = 2775923748
+	persistentId = 276982253
 	pos = 0.0254508238,27.2762032,-0.0700638592
 	attPos = 0,0,0
 	attPos0 = 0,-0.610855103,0
@@ -850,7 +850,7 @@ PART
 {
 	part = science.module_4285993742
 	partName = Part
-	persistentId = 3782294758
+	persistentId = 3898521377
 	pos = 0.0254508238,26.5528488,-0.0700638592
 	attPos = 0,0,0
 	attPos0 = 0,-0.723355293,0
@@ -949,7 +949,7 @@ PART
 {
 	part = ScienceBox_4285993594
 	partName = Part
-	persistentId = 2104245656
+	persistentId = 2985038039
 	pos = 0.0254508238,26.596447,0.299016178
 	attPos = 0,0,0
 	attPos0 = 0,0.0435991287,0.369079947
@@ -1021,7 +1021,7 @@ PART
 {
 	part = batteryBank_4285993542
 	partName = Part
-	persistentId = 117551939
+	persistentId = 4050421059
 	pos = 0.0254508238,25.929493,-0.0700638592
 	attPos = 0,0,0
 	attPos0 = 0,-0.623354912,0
@@ -1070,7 +1070,7 @@ PART
 {
 	part = OrbitalScanner_4287649396
 	partName = Part
-	persistentId = 1283808620
+	persistentId = 5351162
 	pos = 0.597850084,27.9046745,-0.0700638145
 	attPos = -0.219426274,0,0
 	attPos0 = 0.791825533,0.0176153183,4.71964832E-08
@@ -1188,7 +1188,7 @@ PART
 {
 	part = OrbitalScanner_4287620070
 	partName = Part
-	persistentId = 2379588077
+	persistentId = 644381892
 	pos = -0.546948433,27.9046745,-0.0700638592
 	attPos = 0.219426274,0,-1.91828544E-08
 	attPos0 = -0.791825533,0.0176153183,2.20271037E-08
@@ -1306,7 +1306,7 @@ PART
 {
 	part = GooExperiment_4285993428
 	partName = Part
-	persistentId = 961668864
+	persistentId = 2765272202
 	pos = -0.435318738,26.0900574,0.195961565
 	attPos = 0,0,0
 	attPos0 = -0.460769564,-0.462791443,0.266025364
@@ -1397,7 +1397,7 @@ PART
 {
 	part = GooExperiment_4285993382
 	partName = Part
-	persistentId = 1880892164
+	persistentId = 2582738022
 	pos = 0.48622039,26.0900574,0.195961565
 	attPos = 0,0,0
 	attPos0 = 0.460769564,-0.462791443,0.266025364
@@ -1488,7 +1488,7 @@ PART
 {
 	part = advSasModule_4287566456
 	partName = Part
-	persistentId = 860915673
+	persistentId = 4091336660
 	pos = 0.0254508238,28.5860863,-0.0700638592
 	attPos = 0,0,0
 	attPos0 = 0,0.699027061,0
@@ -1566,7 +1566,7 @@ PART
 {
 	part = InfraredTelescope_4285993308
 	partName = Part
-	persistentId = 2821637359
+	persistentId = 2769909787
 	pos = 0.0254508238,28.9251118,-0.0700638592
 	attPos = 0,0,0
 	attPos0 = 0,0.339026451,0
@@ -1663,7 +1663,7 @@ PART
 {
 	part = sensorThermometer_4285993250
 	partName = Part
-	persistentId = 82624615
+	persistentId = 39708288
 	pos = 0.54829812,27.204071,0.231802166
 	attPos = 0,0,0
 	attPos0 = 0.522847295,-0.0721311569,0.301866025
@@ -1749,7 +1749,7 @@ PART
 {
 	part = sensorThermometer_4285993224
 	partName = Part
-	persistentId = 2607960296
+	persistentId = 459810191
 	pos = -0.497396469,27.204071,0.231802166
 	attPos = 0,0,0
 	attPos0 = -0.522847295,-0.0721311569,0.301866025
@@ -1835,7 +1835,7 @@ PART
 {
 	part = sensorBarometer_4285993198
 	partName = Part
-	persistentId = 3706545072
+	persistentId = 4229817046
 	pos = 0.561628103,26.6066341,0.239498258
 	attPos = 0,0,0
 	attPos0 = 0.536177278,0.0537862778,0.309562057
@@ -1921,7 +1921,7 @@ PART
 {
 	part = sensorBarometer_4285993172
 	partName = Part
-	persistentId = 2889799972
+	persistentId = 846392004
 	pos = -0.510726452,26.6066341,0.239498258
 	attPos = 0,0,0
 	attPos0 = -0.536177278,0.0537862778,0.309562057
@@ -2007,7 +2007,7 @@ PART
 {
 	part = sensorGravimeter_4285993146
 	partName = Part
-	persistentId = 1093395576
+	persistentId = 4211374387
 	pos = 0.561612785,26.8880005,0.239489406
 	attPos = 0,0,0
 	attPos0 = 0.536161959,0.335152626,0.309553206
@@ -2093,7 +2093,7 @@ PART
 {
 	part = sensorGravimeter_4285993120
 	partName = Part
-	persistentId = 1076177286
+	persistentId = 2238592404
 	pos = -0.510711133,26.8880005,0.239489406
 	attPos = 0,0,0
 	attPos0 = -0.536161959,0.335152626,0.309553206
@@ -2179,7 +2179,7 @@ PART
 {
 	part = commDish_4287503230
 	partName = Part
-	persistentId = 3963128833
+	persistentId = 4202591951
 	pos = 0.0254508238,27.8753204,0.787478447
 	attPos = 0,0,0
 	attPos0 = 0,-0.0117368698,0.857542276
@@ -2270,7 +2270,7 @@ PART
 {
 	part = longAntenna_4285992428
 	partName = Part
-	persistentId = 3162695152
+	persistentId = 4252199824
 	pos = 0.0254508238,30.1180763,0.631078124
 	attPos = 0,0,0
 	attPos0 = 0,1.19296455,0.701142013
@@ -2361,7 +2361,7 @@ PART
 {
 	part = HECS2.ProbeCore_4285992364
 	partName = Part
-	persistentId = 1977521708
+	persistentId = 2818728773
 	pos = 0.0254508238,25.3186378,-0.0700638592
 	attPos = 0,0,0
 	attPos0 = 0,-0.610855103,0
@@ -2591,7 +2591,7 @@ PART
 {
 	part = batteryBank_4285992304
 	partName = Part
-	persistentId = 1201043601
+	persistentId = 2575933507
 	pos = 0.0254508238,24.7077827,-0.0700638592
 	attPos = 0,0,0
 	attPos0 = 0,-0.610855103,0
@@ -2640,7 +2640,7 @@ PART
 {
 	part = xenonTankLarge_4285992278
 	partName = Part
-	persistentId = 1188109477
+	persistentId = 1190176406
 	pos = 0.0254508238,24.3019276,-0.0700638592
 	attPos = 0,0,0
 	attPos0 = 0,-0.405855179,0
@@ -2689,7 +2689,7 @@ PART
 {
 	part = batteryBank_4285992238
 	partName = Part
-	persistentId = 969436760
+	persistentId = 2494803356
 	pos = 0.0254508238,23.8960724,-0.0700638592
 	attPos = 0,0,0
 	attPos0 = 0,-0.405855179,0
@@ -2738,7 +2738,7 @@ PART
 {
 	part = rtg_4285992212
 	partName = Part
-	persistentId = 2899198930
+	persistentId = 3309457133
 	pos = -0.730470479,24.591835,-0.0700636506
 	attPos = 0,0,0
 	attPos0 = -0.755921304,-0.726802826,2.10340744E-07
@@ -2834,7 +2834,7 @@ PART
 {
 	part = batteryBankMini_4285992182
 	partName = Part
-	persistentId = 2862755900
+	persistentId = 3007633948
 	pos = -0.730470479,24.1650314,-0.0700634867
 	attPos = 0,0,0
 	attPos0 = 0,0.426802635,5.0576304E-08
@@ -2888,7 +2888,7 @@ PART
 {
 	part = ionEngine_4285992154
 	partName = Part
-	persistentId = 2640251875
+	persistentId = 1857315814
 	pos = -0.730470479,23.8514748,-0.0700634867
 	attPos = 0,0,0
 	attPos0 = 0,-0.313556671,1.42108547E-14
@@ -2948,7 +2948,7 @@ PART
 			}
 			ShutdownAction
 			{
-				actionGroup = None
+				actionGroup = Custom10
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
@@ -2997,7 +2997,7 @@ PART
 {
 	part = rtg_4285992100
 	partName = Part
-	persistentId = 14910397
+	persistentId = 1601676975
 	pos = -0.352509648,24.591835,0.584583521
 	attPos = 0,0,0
 	attPos0 = -0.377960473,-0.726802826,0.654647171
@@ -3093,7 +3093,7 @@ PART
 {
 	part = batteryBankMini_4285992070
 	partName = Part
-	persistentId = 3234707111
+	persistentId = 3253365302
 	pos = -0.352509499,24.1650314,0.584583521
 	attPos = 0,0,0
 	attPos0 = 0,0.426802635,5.0576304E-08
@@ -3147,7 +3147,7 @@ PART
 {
 	part = ionEngine_4285992042
 	partName = Part
-	persistentId = 3413632292
+	persistentId = 1923725510
 	pos = -0.352509499,23.8514748,0.584583521
 	attPos = 0,0,0
 	attPos0 = 0,-0.313556671,1.42108547E-14
@@ -3207,7 +3207,7 @@ PART
 			}
 			ShutdownAction
 			{
-				actionGroup = None
+				actionGroup = Custom10
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
@@ -3256,7 +3256,7 @@ PART
 {
 	part = rtg_4285991988
 	partName = Part
-	persistentId = 756076523
+	persistentId = 2331805151
 	pos = 0.403411746,24.591835,0.584583282
 	attPos = 0,0,0
 	attPos0 = 0.37796092,-0.726802826,0.654646933
@@ -3352,7 +3352,7 @@ PART
 {
 	part = batteryBankMini_4285991958
 	partName = Part
-	persistentId = 219793647
+	persistentId = 1546769913
 	pos = 0.403411895,24.1650314,0.584583163
 	attPos = 0,0,0
 	attPos0 = 0,0.426802635,5.0576304E-08
@@ -3406,7 +3406,7 @@ PART
 {
 	part = ionEngine_4285991930
 	partName = Part
-	persistentId = 3604434652
+	persistentId = 1481886686
 	pos = 0.403411895,23.8514748,0.584583163
 	attPos = 0,0,0
 	attPos0 = 0,-0.313556671,1.42108547E-14
@@ -3466,7 +3466,7 @@ PART
 			}
 			ShutdownAction
 			{
-				actionGroup = None
+				actionGroup = Custom10
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
@@ -3515,7 +3515,7 @@ PART
 {
 	part = rtg_4285991876
 	partName = Part
-	persistentId = 3511720919
+	persistentId = 1366242499
 	pos = 0.78137213,24.591835,-0.0700641349
 	attPos = 0,0,0
 	attPos0 = 0.755921304,-0.726802826,-2.76425482E-07
@@ -3611,7 +3611,7 @@ PART
 {
 	part = batteryBankMini_4285991846
 	partName = Part
-	persistentId = 2748031397
+	persistentId = 813065041
 	pos = 0.78137213,24.1650314,-0.0700642988
 	attPos = 0,0,0
 	attPos0 = 0,0.426802635,5.0576304E-08
@@ -3665,11 +3665,11 @@ PART
 {
 	part = ionEngine_4285991818
 	partName = Part
-	persistentId = 3087974449
+	persistentId = 3383756640
 	pos = 0.78137213,23.8514748,-0.0700642988
 	attPos = 0,0,0
 	attPos0 = 0,-0.313556671,1.42108547E-14
-	rot = -5.92923063E-21,-0.707106769,-1.48503199E-13,0.707106888
+	rot = -7.62329653E-21,-0.707106769,-1.76924908E-13,0.707106888
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = 0,0.707106829,0,0.707106829
 	mir = 1,1,1
@@ -3725,7 +3725,7 @@ PART
 			}
 			ShutdownAction
 			{
-				actionGroup = None
+				actionGroup = Custom10
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
@@ -3774,7 +3774,7 @@ PART
 {
 	part = rtg_4285991764
 	partName = Part
-	persistentId = 3148241939
+	persistentId = 2572689029
 	pos = 0.403411299,24.591835,-0.724711299
 	attPos = 0,0,0
 	attPos0 = 0.377960473,-0.726802826,-0.654647231
@@ -3870,7 +3870,7 @@ PART
 {
 	part = batteryBankMini_4285991734
 	partName = Part
-	persistentId = 557216067
+	persistentId = 869865711
 	pos = 0.40341115,24.1650314,-0.724711299
 	attPos = 0,0,0
 	attPos0 = 0,0.426802635,5.0576304E-08
@@ -3924,11 +3924,11 @@ PART
 {
 	part = ionEngine_4285991706
 	partName = Part
-	persistentId = 5167301
+	persistentId = 3332114168
 	pos = 0.40341115,23.8514748,-0.724711299
 	attPos = 0,0,0
 	attPos0 = 0,-0.313556671,1.42108547E-14
-	rot = 8.52651215E-14,-0.258818984,2.55795358E-13,0.965925813
+	rot = 9.94759695E-14,-0.258818984,2.70006212E-13,0.965925813
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = 0,0.707106829,0,0.707106829
 	mir = 1,1,1
@@ -3984,7 +3984,7 @@ PART
 			}
 			ShutdownAction
 			{
-				actionGroup = None
+				actionGroup = Custom10
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
@@ -4033,7 +4033,7 @@ PART
 {
 	part = rtg_4285991652
 	partName = Part
-	persistentId = 4067312011
+	persistentId = 2988884560
 	pos = -0.352509916,24.591835,-0.724711061
 	attPos = 0,0,0
 	attPos0 = -0.377960742,-0.726802826,-0.654647052
@@ -4129,7 +4129,7 @@ PART
 {
 	part = batteryBankMini_4285991622
 	partName = Part
-	persistentId = 2570445856
+	persistentId = 1516554112
 	pos = -0.352510065,24.1650314,-0.724711061
 	attPos = 0,0,0
 	attPos0 = 0,0.426802635,5.0576304E-08
@@ -4183,11 +4183,11 @@ PART
 {
 	part = ionEngine_4285991594
 	partName = Part
-	persistentId = 1759644484
+	persistentId = 794261530
 	pos = -0.352510065,23.8514748,-0.724711061
 	attPos = 0,0,0
 	attPos0 = 0,-0.313556671,1.42108547E-14
-	rot = -4.26325608E-14,0.258818984,9.94759695E-14,0.965925813
+	rot = -5.68434121E-14,0.258818984,1.27897679E-13,0.965925813
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = 0,0.707106829,0,0.707106829
 	mir = 1,1,1
@@ -4243,7 +4243,7 @@ PART
 			}
 			ShutdownAction
 			{
-				actionGroup = None
+				actionGroup = Custom10
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
@@ -4292,7 +4292,7 @@ PART
 {
 	part = rtg_4285991540
 	partName = Part
-	persistentId = 3297341969
+	persistentId = 1123273982
 	pos = -0.35635519,26.0454407,0.591243505
 	attPos = 0,0,0
 	attPos0 = -0.381806016,0.726802826,0.661307216
@@ -4386,7 +4386,7 @@ PART
 {
 	part = rtg_4285991510
 	partName = Part
-	persistentId = 1890338044
+	persistentId = 3088509204
 	pos = 0.407256663,26.0454407,0.591243625
 	attPos = 0,0,0
 	attPos0 = 0.381805837,0.726802826,0.661307335
@@ -4480,7 +4480,7 @@ PART
 {
 	part = rtg_4285991480
 	partName = Part
-	persistentId = 1733122188
+	persistentId = 3662745883
 	pos = 0.789062738,26.0454407,-0.0700638443
 	attPos = 0,0,0
 	attPos0 = 0.763611913,0.726802826,1.65323755E-08
@@ -4574,7 +4574,7 @@ PART
 {
 	part = rtg_4285991450
 	partName = Part
-	persistentId = 4028106220
+	persistentId = 345089863
 	pos = 0.407256782,26.0454407,-0.731371284
 	attPos = 0,0,0
 	attPos0 = 0.381805956,0.726802826,-0.661307275
@@ -4668,7 +4668,7 @@ PART
 {
 	part = rtg_4285991420
 	partName = Part
-	persistentId = 2647118806
+	persistentId = 442634828
 	pos = -0.356355071,26.0454407,-0.731371403
 	attPos = 0,0,0
 	attPos0 = -0.381805897,0.726802826,-0.661307335
@@ -4762,7 +4762,7 @@ PART
 {
 	part = rtg_4285991390
 	partName = Part
-	persistentId = 978076196
+	persistentId = 2059781952
 	pos = -0.738161027,26.0454407,-0.0700640753
 	attPos = 0,0,0
 	attPos0 = -0.763611853,0.726802826,-2.19715133E-07
@@ -4856,7 +4856,7 @@ PART
 {
 	part = SurveyScanner_4285991360
 	partName = Part
-	persistentId = 2955441143
+	persistentId = 790181324
 	pos = 0.0254508238,25.3767109,0.458981067
 	attPos = 0,0,-0.199999928
 	attPos0 = 0,0.0580730438,0.729044735
@@ -4953,7 +4953,7 @@ PART
 {
 	part = largeSolarPanel_4285991288
 	partName = Part
-	persistentId = 3474328622
+	persistentId = 3187115732
 	pos = 0.0254507605,25.4909077,-0.798340678
 	attPos = 0,0,0
 	attPos0 = -6.33299351E-08,0.172269821,-0.728276849
@@ -5025,7 +5025,7 @@ PART
 {
 	part = largeSolarPanel_4286482590
 	partName = Part
-	persistentId = 1908577275
+	persistentId = 569492208
 	pos = 0.0254507605,28.0593243,-0.79808557
 	attPos = 0,0,0
 	attPos0 = -6.33299351E-08,0.172266006,-0.728021741
@@ -5097,7 +5097,7 @@ PART
 {
 	part = dockingPort2_4285991156
 	partName = Part
-	persistentId = 1881138128
+	persistentId = 3639491479
 	pos = 0.0254508238,23.7852173,-0.0700638592
 	attPos = 0,0,0
 	attPos0 = 0,-0.110855103,0
@@ -5200,7 +5200,7 @@ PART
 {
 	part = RelayAntenna50_4286396358
 	partName = Part
-	persistentId = 4043110377
+	persistentId = 352780040
 	pos = -0.805854559,25.2535934,-0.0700638071
 	attPos = 0,0,0
 	attPos0 = -0.831305385,-0.0650444031,5.21540642E-08
@@ -5277,7 +5277,7 @@ PART
 {
 	part = RelayAntenna50_4286395034
 	partName = Part
-	persistentId = 1977220862
+	persistentId = 288401756
 	pos = 0.85675621,25.2535934,-0.0700639859
 	attPos = 0,0,0
 	attPos0 = 0.831305385,-0.0650444031,-1.2665987E-07
@@ -5354,7 +5354,7 @@ PART
 {
 	part = ladder1_4285990952
 	partName = Part
-	persistentId = 921798804
+	persistentId = 1317619162
 	pos = 0.0254508238,28.5842648,0.534447789
 	attPos = 0,0,0
 	attPos0 = 0,-0.00182056427,0.604511619
@@ -5390,7 +5390,7 @@ PART
 {
 	part = ladder1_4285990908
 	partName = Part
-	persistentId = 3791706264
+	persistentId = 3707595297
 	pos = 0.0254508238,26.647316,0.567559004
 	attPos = 0,0,0
 	attPos0 = 0,-0.050868988,0.268542796
@@ -5426,7 +5426,7 @@ PART
 {
 	part = ScienceBox_4285989068
 	partName = Part
-	persistentId = 1107230762
+	persistentId = 3818084419
 	pos = -0.391369253,25.3162212,-0.310715199
 	attPos = 0,0,0
 	attPos0 = -0.416820079,-0.00241661072,-0.240651339
@@ -5497,7 +5497,7 @@ PART
 {
 	part = ScienceBox_4285978520
 	partName = Part
-	persistentId = 1915470990
+	persistentId = 1035874540
 	pos = 0.439565569,25.316164,-0.309153259
 	attPos = 0,0,0
 	attPos0 = 0.414114743,-0.00247383118,-0.2390894
@@ -5568,7 +5568,7 @@ PART
 {
 	part = ladder1_4285938726
 	partName = Part
-	persistentId = 3164738001
+	persistentId = 3687092213
 	pos = 0.0254508238,27.2430801,0.534077764
 	attPos = 0,0,0
 	attPos0 = 0,-0.0331230164,0.604141593
